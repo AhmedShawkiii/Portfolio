@@ -84,3 +84,4 @@ All colors and variables are in `css/style.css` under `:root`. Key ones:
 
 Built with ❤️ — no libraries, no CDN, just clean code.
 # Portfolio
+# Portfolio
