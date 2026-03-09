@@ -1,0 +1,72 @@
+/* =====================================================
+   PORTFOLIO — Ahmed Shawki
+   responsive.css  |  Media Queries
+   ===================================================== */
+
+/* ─── Tablet ─── */
+@media (max-width: 1024px) {
+  .about-grid    { gap: 3rem; }
+  .contact-wrap  { gap: 3rem; }
+  .cta-box       { padding: 3.5rem 2.5rem; }
+}
+
+/* ─── Mobile ─── */
+@media (max-width: 900px) {
+  .nav-links, .nav-cta { display: none; }
+  .hamburger            { display: flex; }
+
+  /* Hero */
+  #hero {
+    flex-direction: column; text-align: center;
+    padding-top: 7rem; gap: 2rem;
+  }
+  .hero-visual { display: none; }
+  .hero-btns   { justify-content: center; }
+  .hero-stats  { justify-content: center; }
+  .hero-desc   { margin-left: auto; margin-right: auto; }
+  .hero-usp    { margin-left: auto; margin-right: auto; }
+
+  /* About */
+  .about-grid  { grid-template-columns: 1fr; gap: 3rem; }
+  .about-list  { grid-template-columns: 1fr; }
+  .about-badge { bottom: -15px; right: 10px; }
+
+  /* Education */
+  .edu-card { flex-direction: column; gap: 1.5rem; }
+  .edu-left { flex: none; text-align: left; display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; }
+
+  /* Services */
+  .services-grid { grid-template-columns: 1fr; }
+
+  /* Skills */
+  .skills-grid { grid-template-columns: 1fr 1fr; }
+
+  /* Projects */
+  .projects-grid { grid-template-columns: 1fr; }
+
+  /* Achievements */
+  .achievements-grid { grid-template-columns: 1fr 1fr; }
+
+  /* Testimonials */
+  .testimonials-grid { grid-template-columns: 1fr; }
+
+  /* CTA */
+  .cta-box { padding: 3rem 1.5rem; border-radius: 20px; }
+
+  /* Contact */
+  .contact-wrap { grid-template-columns: 1fr; gap: 3rem; }
+  .form-row     { grid-template-columns: 1fr; }
+
+  /* Cursor */
+  .cursor-dot, .cursor-ring { display: none; }
+}
+
+@media (max-width: 480px) {
+  section { padding: 5rem 1.2rem; }
+  .skills-grid        { grid-template-columns: 1fr; }
+  .achievements-grid  { grid-template-columns: 1fr; }
+  .hero-stats         { gap: 1.5rem; }
+  .hero-btns          { flex-direction: column; align-items: center; }
+  .btn                { width: 100%; justify-content: center; }
+  .cta-btns           { flex-direction: column; align-items: center; }
+}
