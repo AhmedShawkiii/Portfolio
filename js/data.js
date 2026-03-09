@@ -37,8 +37,8 @@ const PROJECTS = [
     result:   'A self-branding asset built to showcase work and convert visitors into clients.',
     tags:     ['HTML5', 'CSS3', 'JavaScript', 'Animations', 'UI Design'],
     gradient: '135deg, #f7971e, #c0392b',
-    demo:     '#',
-    source:   'https://ahmedshawkiii.github.io/Portfolio/',
+    demo:     'https://ahmedshawkiii.github.io/Portfolio/',
+    source:   '#',
   },
   {
   emoji:    '🎓',
